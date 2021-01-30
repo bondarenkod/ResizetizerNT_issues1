@@ -13,12 +13,12 @@ namespace ResizetizerNT_svg_log_issue.Services
         public MockDataStore()
         {
             var images = new string[]
-            {   
-                "working_svg",
-                "error_sample_comment",
-                "error_sample_like",
-                "error_sample_mention",
-                "issue_39_icon_viral"
+            {
+                "issue_39_0",
+                "issue_43_0",
+                "issue_43_1",
+                "issue_43_2",
+                "working_svg"
             };
 
             items = images.Select(x => new Item

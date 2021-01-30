@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,24 +6,30 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="SharedImages\error_sample_comment.svg" />
-    <None Remove="SharedImages\error_sample_like.svg" />
-    <None Remove="SharedImages\error_sample_mention.svg" />
-    <None Remove="SharedImages\issue_39_icon_viral.svg" />
+    <None Remove="SharedImages\issue_39_0.svg" />
+    <None Remove="SharedImages\issue_43_0.svg" />
+    <None Remove="SharedImages\issue_43_1.svg" />
+    <None Remove="SharedImages\issue_43_2.svg" />
     <None Remove="SharedImages\working_svg.svg" />
   </ItemGroup>
 
+
+
   <ItemGroup>
     <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
 
+
+
   <ItemGroup>
-    <SharedImage Include="SharedImages\error_sample_comment.svg" BaseSize="50" />
-    <SharedImage Include="SharedImages\error_sample_like.svg" BaseSize="50" />
-    <SharedImage Include="SharedImages\error_sample_mention.svg" BaseSize="50" />
-    <SharedImage Include="SharedImages\issue_39_icon_viral.svg" BaseSize="50" />
+    <SharedImage Include="SharedImages\issue_39_0.svg" BaseSize="50" />
+    <SharedImage Include="SharedImages\issue_43_0.svg" BaseSize="50" />
+    <SharedImage Include="SharedImages\issue_43_1.svg" BaseSize="50" />
+    <SharedImage Include="SharedImages\issue_43_2.svg" BaseSize="50" />
     <SharedImage Include="SharedImages\working_svg.svg" BaseSize="50" />
   </ItemGroup>
+
+ 
 </Project>
